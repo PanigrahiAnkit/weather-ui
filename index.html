@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="title">Weather App</h1>
+        <form action="/fetch_weather" method="GET" class="city-form">
+            <input type="text" name="city" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+    </div>
+    <div class="weather-container">
+        <div class="weather-info">
+            <h2 class="city-name">Mohali</h2>
+            <p class="temperature">Temperature: 32.03°C</p>
+            <p class="sky">Sky: Scattered Clouds</p>
+            <p class="wind">Wind Speed: 1.05 m/s</p>
+            <p class="humidity">Humidity: 32%</p>
+        </div>
+    </div>
+</body>
+</html>
