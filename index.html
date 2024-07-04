@@ -9,16 +9,19 @@
 <body>
     <div class="form-container">
         <h1 class="title">Weather App</h1>
-        <form action="/fetch_weather" method="GET" class="city-form">
-            <input type="text" name="city" placeholder="Enter city name" required>
-            <button type="submit">Get Weather</button>
-        </form>
+        <!-- <form action="/fetch_weather" method="GET" class="city-form"> -->
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button>Get Weather</button>
+        </div>
+
+        <!-- </form> -->
     </div>
     <div class="weather-container">
         <div class="weather-info">
             <h2 class="city-name">Mohali</h2>
             <p class="temperature">Temperature: 32.03°C</p>
-            <p class="sky">Pressure: 997</p>
+            <p class="pressure">Pressure: 997</p>
             <p class="wind">Wind Speed: 1.05 m/s</p>
             <p class="humidity">Humidity: 32%</p>
         </div>
